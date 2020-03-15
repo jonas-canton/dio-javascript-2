@@ -48,3 +48,13 @@ Tipos e Variáveis
     var
     let
     const
+
+string
+number (engloba números inteiros e decimais)
+boolean
+null
+undefined
+symbol
+Object
+Function
+Array
