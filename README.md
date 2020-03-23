@@ -49,6 +49,8 @@ Tipos e Variáveis
     let
     const
 
+Tipos de variáveis:
+
 string
 number (engloba números inteiros e decimais)
 boolean
@@ -58,3 +60,12 @@ symbol
 Object
 Function
 Array
+
+Operadores:
+
+Aritméticos
+Atribuição
+Comparação
+Condicional
+Lógicos
+Spread
