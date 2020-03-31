@@ -69,3 +69,87 @@ Comparação
 Condicional
 Lógicos
 Spread
+
+Orientação a Objetos
+Herança
+    Baseada em protótipos
+    prototype - armazena as definições do nosso objeto
+    __proto__ - aponta para o prototype do tipo que foi criado
+    constructor
+Classes
+    ES6
+    Simplificação da herança de protótipos
+    Palavra chave class
+Modificador de Acesso
+    public/private
+Encapsulamento
+    Ocultar detalhes do funcionamento interno
+Static
+    Acessar métodos/atributos sem instanciar
+
+Introdução a Design Patterns
+    Definição: são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software.
+    Não se trata de um framework ou um código pronto, mas de uma definição de ato nível de como um problema comum pode ser solucionado.
+    Surgiu com o livro A Pattern Language, lançado em 1978 por Cristopher Alexander, Sara Ishikawa e Murray Silverstein, e que mostra
+    253 tipos de problemas/desafios de projetos.
+    Nesse livro, definiu-se o formato de um patten:
+        - Nome
+        - Exemplo
+        - Contexto
+        - Problema
+        - Solução
+    Em 1987, Kent Beck e Ward Cunningham falaram sobre 5 padrões de projetos em uma palestra conhecida como Using Pattern Languages for Object-Oriented Programs
+    Em 1994, Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides (conhecidos como GoF - Gang of Four) lançaram o livro Design Patterns: Elements of Reousable
+    Object-Oriented Software
+    No livro acima, os design patters são estruturados em 3 tipos:
+        - Criação
+        - Estruturais
+        - Comportamentais
+    Padrões de criação
+        Os padrões de criação são aqueles que abstraem e/ou adiam o processo de criação dos objetos. Eles ajudam a tornar um sistema independente de como seus
+        objetos são criados, compostos e representados.
+    Os mais famosos padrões de criação são:
+        - Abstract Factory
+        - Builder
+        - Factory Method
+        - Prototype
+        - Singleton
+    Padrões estruturais
+        Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores. Dentre eles, temos:
+        - Adapter
+        - Bridge
+        - Composite
+        - Decorator
+        - Facade
+        - Business Delegate
+        - Flyweight
+        - Proxy
+    Padrões comportamentais
+        Os padrões de comportamento se concentram nos algoritmos e atribuições de responsabilidades entre os objetos. Eles não descrevem apenas
+        padrões de objetos ou de classes, mas também os padrões de comunicação entre os objetos. Dentre eles, temos:
+        - Chain of Responsability
+        - Command
+        - Interpreter
+        - Iterator
+        - Mediator
+        - Observer
+        - State
+        - Strategy
+        - Template Method
+        - Visitor
+    Patterns mais utilizados
+        - Factory
+        - Singleton
+        - Decorator
+        - Observer
+        - Module
+    Factory
+        Todas as funções que retornam um objeto, sem a necessidade de chamá-los com o new, são consideradas funções Factory (fábrica).
+    Singleton
+        O objetivo desse pattern é criar uma única instância de uma função construtora e retorná-la toda vez em que for necessário utilizá-la (ex.: o próprio jQuery)
+    Decorator
+        Uma função decorator recebe uma outra função como parâmetro e estende o seu comportamento sem modificá-la explicitamente.
+    Observer
+        E um pattern muito popular em aplicações JavaScript. A instância (subscriber) mantém uma coleção de objetos (observers) e notifica todos eles quando ocorrem mudanças no estado.
+    Module
+        É um pattern que possibilita organizarmos melhor o nosso código, sem a necessidade de expor variáveis globais.
